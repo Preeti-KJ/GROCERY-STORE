@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fresh Grocery Store</title>
+  <style>
+    body{
+    font-family: Ariaval,sans-serif;
+    margin:0;
+    margin:0;
+    background-color: grey;
+    
+}
+
+nav ul {
+    text-align: centre ;
+    color:white;
+    font-weight: bold; 
+display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+  
+}
+
+nav ul li a{
+text-decoration: none;
+color:white;
+}
+
+.product-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+
+}
+.product{
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+button{
+    width: 150px;
+    height: 25px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.big{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.big img{
+   width: 500px;
+}
+
+  </style>
+  </head>
+<body>
+  <header>
+    <h1>Fresh Grocery Store</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Fruits</a></li>
+        <li><a href="#">Vegetables</a></li>
+        <li><a href="#">Dairy</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="big">
+    <img src="media/grocessary.jpg" alt="grocessary.jpg">
+
+  </div>
+  <section class="banner">
+    <h2>Fresh & Organic Groceries Delivered to Your Door</h2>
+    <button>Shop Now</button>
+  </section>
+
+  <section class="products">
+    <h2>Our Products</h2>
+    <div class="product-list">
+      <div class="product">
+        <img src="media/apple.jpg" alt="Apple">
+        <h3>Apple</h3>
+        <p>₹120/kg</p>
+        <button>Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="media/tomato.jpg" alt="Tomato">
+        <h3>Tomato</h3>
+        <p>₹40/kg</p>
+        <button>Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="media/milk.jpg" alt="Milk">
+        <h3>Milk</h3>
+        <p>₹60/L</p>
+        <button>Add to Cart</button>
+      </div>  
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Fresh Grocery Store | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
